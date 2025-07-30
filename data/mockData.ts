@@ -59,18 +59,18 @@ export const getMetricsData = (): MetricData[] => [
 ];
 
 export const getRevenueData = (): ChartDataPoint[] => [
-  { name: 'Jan', revenue: 4000, users: 2400 },
-  { name: 'Feb', revenue: 3000, users: 1398 },
-  { name: 'Mar', revenue: 2000, users: 9800 },
-  { name: 'Apr', revenue: 2780, users: 3908 },
-  { name: 'May', revenue: 1890, users: 4800 },
-  { name: 'Jun', revenue: 2390, users: 3800 },
-  { name: 'Jul', revenue: 3490, users: 4300 },
-  { name: 'Aug', revenue: 4200, users: 5200 },
-  { name: 'Sep', revenue: 3800, users: 4900 },
-  { name: 'Oct', revenue: 4500, users: 5800 },
-  { name: 'Nov', revenue: 5200, users: 6200 },
-  { name: 'Dec', revenue: 5800, users: 6800 }
+  { name: 'Jan', revenue: 4000, users: 2400, value: 4000 },
+  { name: 'Feb', revenue: 3000, users: 1398, value: 3000 },
+  { name: 'Mar', revenue: 2000, users: 9800, value: 2000 },
+  { name: 'Apr', revenue: 2780, users: 3908, value: 2780 },
+  { name: 'May', revenue: 1890, users: 4800, value: 1890 },
+  { name: 'Jun', revenue: 2390, users: 3800, value: 2390 },
+  { name: 'Jul', revenue: 3490, users: 4300, value: 3490 },
+  { name: 'Aug', revenue: 4200, users: 5200, value: 4200 },
+  { name: 'Sep', revenue: 3800, users: 4900, value: 3800 },
+  { name: 'Oct', revenue: 4500, users: 5800, value: 4500 },
+  { name: 'Nov', revenue: 5200, users: 6200, value: 5200 },
+  { name: 'Dec', revenue: 5800, users: 6800, value: 5800 }
 ];
 
 export const getTrafficSourceData = (): ChartDataPoint[] => [

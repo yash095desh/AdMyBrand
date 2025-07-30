@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { DollarSign, Users, Target, TrendingUp, TrendingDown, DivideIcon as LucideIcon } from 'lucide-react';
 import { MetricData } from '@/data/mockData';
 
-const iconMap: Record<string, LucideIcon> = {
+const iconMap: Record<string, typeof LucideIcon> = {
   DollarSign,
   Users,
   Target,
